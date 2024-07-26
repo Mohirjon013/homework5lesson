@@ -95,16 +95,19 @@
 
 // 1-masala
 // function createArr(a, b){
-//     console.log(a, b);
+//     return (a + b);
 // }
 // const number1 =prompt("enter first number") - 0
 // const number2 =prompt("enter second number") - 0
 
-// createArr(`${number1} , ${number2}`)
+// console.log(createArr(number1 , number2));
 
 // 2-masala
 // function enterNmuber(arr){
-//     return arr
+//     let evenRes = 0
+//     for(let num of arr)
+//     evenRes += num
+//     return evenRes
 // }
 // const result = enterNmuber([2,5,4,8,7])
 // console.log(result);
@@ -127,7 +130,7 @@
 // let arr = ["5", 2, "true"]
 // function createArr(arr){
 //     for(let i = 0; i < arr.length; i++){
-//         if(typeof arr[i] == "string"){
+//         if(typeof arr[i] == "string" && arr[i] == Number(arr[i])){
 //             arr[i] = arr[i] - 0
 //         }
 //         else if(typeof arr[i] == "string"){
@@ -170,24 +173,32 @@
 // console.log(result);
 
 // 6-masala
-// function collectionNames(number1, number2, number3){
-//     var evenRes = number1 + number2 + number3 
-//     return evenRes / 3
+// let arr = []
+
+// function collectionNames(arr){
+//     let evenRes = 0
+//     for(let i = 0; i < 3; i++){
+//         arr[i] = prompt("enter number !!!") -0; 
+//     }s
+//     for(let num of arr){
+//         evenRes += num
+//     }
+//     return evenRes / arr.length
 // }
-// console.log(collectionNames(1,2,3));
+// console.log(collectionNames(arr));
+
 
 // 7-masala
 // function createArr(arr){
 //     if(arr[0] % 2 == 0){
-//         arr[0] = 3
-//         return arr
+//         arr[0] +=1
 //     }
 //     else{
-//         arr[0] = 2
-//         return arr
+//         arr[0] +=1
 //     }
+//     return arr
 // }
-// console.log(createArr([2,35,6]));
+// console.log(createArr([5,6,35,6]));
 
 // 8-masala
 // let arr1 = [ "komiljon", "apple", "mi", "tesla", "UZB"]
